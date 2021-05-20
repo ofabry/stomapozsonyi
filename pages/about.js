@@ -7,19 +7,19 @@ const About = ({ title, description, ...props }) => {
         <h1 className="title">Stoma Pozsonyi</h1>
 
         <p className="description">
-          tel. č.: 031/7878106
-          email: stomavp@gmail.com
+          <strong>tel. č.:</strong> 031/7878106<br>
+          <strong>email:</strong> stomavp@gmail.com<br>
         </p>
 
         <p>
-          Adresa:
-          Školská 1565
+          <b>Adresa:</b><br>
+          Školská 1565<br>
           925 22 Veľké Úľany
         </p>
 
         <p>
-          instagram: stomavp
-          facebook: ?
+          <strong>instagram:</strong> stomavp<br>
+          <strong>facebook:</strong> ?<br>
         </p>
       </Layout>
     </>
